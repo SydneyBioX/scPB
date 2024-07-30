@@ -1,2 +1,5 @@
-# scPB
-Single cell perturbation benchmarking
+# Benchmarking of quantifying perturbation effect in single-cell multi-condition studies
+
+We develop a framework to systematically benchmark the state-of-the-art computational methods focusing on phenotype-associated/perturbation effect quantification at the cellular level. We use simulation and real datasets to benchmark the cell-level perturbation quantification methods and perturbation embedding construction methods. The simulation is classified into four scenarios under discrete and continuous biological systems: (1) No perturbation effect; (2) Composition shift; (3) Expression shift; (4) Combination of composition and expression shift. The real datasets are classified into three primary scenarios: (1) Control vs Case; (2) Case 1 vs Case 2; and (3) Outcome 1 vs Outcome 2. We assess each perturbation approach using five categories of evaluation criteria: (i) Accuracy; (ii) Scalability; (iii) Applicability; (iv) Stability; (v) Predictive power. 
+
+![scPB_fig2](https://github.com/user-attachments/assets/4694d25f-56a7-4752-b9de-0d9e660bc130)
